@@ -20,7 +20,7 @@ class SearchingWearable extends StatelessWidget {
         // crossAxisAlignment: CrossAxisAlignment.start,
         // mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          SizedBox(height: 35),
+          const SizedBox(height: 35),
           Align(
             alignment: Alignment.center,
             child: Image.asset(
@@ -29,7 +29,7 @@ class SearchingWearable extends StatelessWidget {
               width: 200,
             ),
           ),
-          SizedBox(height: 45),
+          const SizedBox(height: 45),
           const Text(
             "Searching for Wearable",
             style: TextStyle(
@@ -38,7 +38,7 @@ class SearchingWearable extends StatelessWidget {
               color: Colors.white,
             ),
           ),
-          SizedBox(height: 45),
+          const SizedBox(height: 45),
           const Align(
             alignment: Alignment.center,
             child: Icon(
@@ -73,7 +73,7 @@ class SearchingWearable extends StatelessWidget {
               ],
             ),
           ),
-          Container(height: 400, child: FindDevicesScreen())
+          Container(height: 400, child: FindDevicesScreen()),
         ],
       ),
     );
